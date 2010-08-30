@@ -35,7 +35,21 @@ src: local('Universalis ADF Std'), local('UniversalisADFStd-Bold'), url('/f/Univ
     padding: 0;
 }
 
-body {
-    background-color: @background-color;
+html {
+    background: @background-color;
     font: normal medium UniversalisADFStdRegular;
+    font-size: 110%;
+    line-height: 1.8em;
+    color: @primary-text-color;
+}
+
+body {
+    width: 60em;
+    max-width: 90%;
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
+
+ul {
+    list-style-type: square;
 }
