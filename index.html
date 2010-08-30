@@ -12,7 +12,7 @@ title: Andy Freeland
     {{ post.content }}
     
     <p class="post_comment_link">
-        <a href="{{ page.url }}/#disqus_thread">Comments</a>
+        <a href="{{ post.url }}#disqus_thread">Comments</a>
     </p>
     
     {% if post != paginator.posts.last %}
@@ -44,7 +44,7 @@ title: Andy Freeland
     {% endif %}
   </div>
 
-  <div class="clear_both">
+  <div class="clear">
   </div>
 
   <hr/>

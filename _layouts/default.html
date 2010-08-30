@@ -10,24 +10,35 @@
 
 <body>
     <div id="header">
-        <h1><a href="/">andyfreeland.net</a></h1>
+        <div id="title">
+            <a href="/">Andy Freeland</a>
+        </div>
         
-        <ul id="navigation">
-            <li class="first"><a href="/">Blog</a></li>
-            <li><a href="/archive/">Archive</a></li>
-            <li class="last"><a href="/about/">About</a></li>
-        </ul>
+        <div id="navigation">
+            <a href="/about/">About</a>
+            <a href="/archive/">Archive</a>
+        
+        <div class="clear">
+        </div>
     </div>
     
+    <div id="content">
     {{ content }}
+    </div>
     
 <script type="text/javascript">
-var disqus_shortname = 'andyfreeland';
-(function () {
-  var s = document.createElement('script'); s.async = true;
-  s.src = 'http://disqus.com/forums/andyfreeland/count.js';
-  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-}());
+//<![CDATA[
+(function() {
+    var links = document.getElementsByTagName('a');
+    var query = '?';
+    for (var i = links.length - 1; i >= 0; i--){
+        if(links[i].href.indexOf('#disqus_thread') >= 0) {
+            query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+        };
+    };
+    document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/jimeh/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
 </script>
 </body>
 </html>
