@@ -4,22 +4,21 @@ title: Andy Freeland
 ---
 
 {% for post in paginator.posts %}
+    <div class="post_date">{{ post.date | date_to_string }}</div>
     <div class="post">
-        <div class="post_date">{{ post.date | date_to_string }}</div>
         <h2 class="post_title">
             <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
         </h2>
         
         {{ post.content }}
-        
-        <p class="post_comment_link">
-            <a href="{{ post.url }}#disqus_thread">Comments</a>
-        </p>
-        
-        {% if post != paginator.posts.last %}
-            <hr class="post" />
-        {% endif %}
     </div>
+    <p class="post_comment_link">
+        <a href="{{ post.url }}#disqus_thread">Comments</a>
+    </p>
+    
+    {% if post != paginator.posts.last %}
+        <hr class="post" />
+    {% endif %}
 {% endfor %}
 
 <div class="paginator">
