@@ -1,0 +1,51 @@
+---
+layout: default
+title: Andy Freeland
+---
+
+{% for post in paginator.posts %}
+    <div class="post_date">{{ post.date | date_to_string }}</div>
+    <h2>
+        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </h2>
+    
+    {{ post.content }}
+    
+    <p class="post_comment_link">
+        <a href="{{ page.url }}/#disqus_thread">Comments</a>
+    </p>
+    
+    {% if post != paginator.posts.last %}
+        <hr class="post" />
+    {% endif %}
+{% endfor %}
+
+<div class="paginator">
+  <hr/>
+  
+  <div class="left_column">
+    {% if paginator.next_page %}
+      <a href="/page{{ paginator.next_page }}/">&larr; Older</a>
+    {% endif %}
+  </div>
+
+  <div class="center_column">
+    {% include search.html %}
+  </div>
+  
+  <div class="right_column">
+    {% if paginator.previous_page %}
+      <a href="
+        {% if paginator.previous_page == 1 %}
+          /
+        {% else %}
+          /page{{ paginator.previous_page }}
+        {% endif %}">Newer &rarr;</a>
+    {% endif %}
+  </div>
+
+  <div class="clear_both">
+  </div>
+
+  <hr/>
+</div>
