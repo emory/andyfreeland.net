@@ -4,7 +4,7 @@ title: Andy Freeland
 ---
 
 {% for post in paginator.posts %}
-    <article>
+    <article class="index">
         <header>
             <time datetime="{{ post.date}}" pubdate>{{ post.date | date_to_string }}</time>
             <h1 id="post_title">
@@ -22,15 +22,11 @@ title: Andy Freeland
 {% endfor %}
 
 <div class="paginator">
-  
+  <hr />
   <div class="left_column">
     {% if paginator.next_page %}
       <a href="/page{{ paginator.next_page }}/">&larr; Older</a>
     {% endif %}
-  </div>
-
-  <div class="center_column">
-    {% include search.html %}
   </div>
   
   <div class="right_column">
@@ -44,4 +40,10 @@ title: Andy Freeland
     {% endif %}
   </div>
   
+  <div class="center_column">
+    {% include search.html %}
+  </div>
+  
+  <div class="clear"></div>
+  <hr />
 </div>
