@@ -1,17 +1,12 @@
 ---
 ---
 
-/* reset */
-.clear {clear: both;display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}.clearfix:after {clear: both;content: ' ';display: block;font-size: 0;line-height: 0;visibility: hidden;width: 0;height: 0;}* html .clearfix {height: 1%;}
-
 /* Colors */
 
-@background-color: #000000;
-@foreground-color: #111111;
-@heading-color: #FEFE3F;
-@link-color: #FEFE3F;
-@primary-text-color: #ffffff;
-@secondary-text-color: #aaaaaa;
+@background-color: #edf1f3;
+@text-color: #222;
+@link-color: #336699;
+@title-color: #336699;
 
 /* Fonts */
 
@@ -32,43 +27,34 @@ src: local('Universalis ADF Std'), local('UniversalisADFStd-Bold'), url('/f/Univ
 }
 
 /* Layout */
-
 * {
     margin: 0;
     padding: 0;
 }
 
-html {
-    background: @background-color;
-    font: normal medium UniversalisADFStdRegular;
-    font-size: 120%;
-    line-height: 1.8em;
-    color: @primary-text-color;
-}
-
 body {
-    width: 60em;
-    max-width: 80%;
-    margin: 0 auto;
-    padding-bottom: 3em;
+    font: normal medium 'OFL Sorts Mill Goudy TT','Gill Sans','Gill Sans MT',sans-serif;
+    margin: 1.75em auto;
+    width: 40em;
+    line-height: 1.75;
+    word-spacing: 0.1em;
+    background-color: white
 }
 
-ul {
-    list-style-type: square;
+nav ul {
+    margin: 0px;
+    padding: 0px 1em 0px 0px;
+    text-align: center;
 }
 
-/* Text */
-
-.post {
-    font-size: 1.2em;
-}
-
-.secondary-text {
-    color: @secondary-text-color;
-}
-
-h1, h2, h3 {
-    color: @heading-color;
+nav li {
+    display: inline;
+    padding-left: 1em;
+    font: normal medium UniversalisADFStdRegular;
+    font-weight: bolder;
+    letter-spacing: -1px;
+    font-size: 20px;
+    line-height: 22px;
 }
 
 a {
@@ -77,94 +63,78 @@ a {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
-#header {
-    height: 100px;
-    margin-top: 1.5em;
-    color: @heading-color;
+a img { border-width: 0; }
+
+blockquote {
+  border-left: 1px solid @text-color;
+  line-height: 18px;
+  font-size: 11pt;
+  font-style: italic;
+  margin: 20px;
+  padding-left: 10px;
 }
+
+code {
+  font-family: 'DejaVu Sans Mono', 'Courier New', monospace;
+  font-size: 12pt;
+}
+
+h1, h2, h3, footer {
+    font: normal medium UniversalisADFStdRegular;
+    font-weight: bolder;
+    letter-spacing: -1px;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 18px;
+  color: @link-color;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 22px;
+  margin-bottom: 18px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+li { margin-bottom: 4px; }
+
+p, ul, ol { margin-bottom: 18px; }
+
+ul, ol {
+  margin-left: 2em;
+}
+
+ul { list-style-type: square; }
+
+/* html5 */
+header, footer, nav, article { display: block; }
+
+article {
+    border-bottom: 1px solid @text-color;
+    margin-bottom: 20px;
+}
+
+article p {
+    font-size: 13pt;
+    line-height: 26px;
+}
+
+#title, #post_title { color: @title-color; }
 
 #title {
-    float: left;
-    font-size: 75px;
+    font-size: 32pt;
 }
 
-#navigation {
-    font-size: 40px;
-    float: right;
-    
-    a:hover {
-        text-decoration: underline;
-    }
-}
-
-#content {
-    float: left;
-    width: 100%;
-}
-
-.post_date {
-    color: @secondary-text-color;
-}
-
-.post_title {
-    a:hover {
-        text-decoration: underline;
-    }
-}
-
-
-/* Pagination */
-
-div.left_column,
-div.right_column,
-form.center_column
-{
-  border-bottom: 3px solid @background-color;
-}
-
-div.left_column,
-div.right_column
-{
-  width: 25%;
-}
-
-div.left_column
-{
-  float: left;
-}
-
-div.center_column
-{
-  float: left;
-  width: 50%;
-  text-align: center; 
-}
-
-div.right_column
-{
-  float: right;
-  text-align: right;
-}
-
-div.paginator
-{
-  margin: 3em 0;
-}
-
-/* Horizontal Rule */
-
-hr
-{
-  border-top: 1px solid #010101;
-  border-bottom: 1px solid #575757;
-  border-right: none;
-  border-left: none;
-}
-
-hr.post
-{
-  margin: 3em 0 3.5em 0;
+#post_title {
+    font-size: 24pt;
 }

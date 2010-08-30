@@ -4,25 +4,24 @@ title: Andy Freeland
 ---
 
 {% for post in paginator.posts %}
-    <div class="post_date">{{ post.date | date_to_string }}</div>
-    <div class="post">
-        <h2 class="post_title">
-            <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </h2>
-        
-        {{ post.content }}
-    </div>
-    <p class="post_comment_link">
-        <a href="{{ post.url }}#disqus_thread">Comments</a>
-    </p>
+    <article>
+        <header>
+            <time datetime="{{ post.date}}" pubdate>{{ post.date | date_to_string }}</time>
+            <h1 id="post_title">
+                <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            </h1>
+        </header>
+            
+            {{ post.content }}
+            
+        <p class="post_comment_link">
+            <a href="{{ post.url }}#disqus_thread">Comments</a>
+        </p>
     
-    {% if post != paginator.posts.last %}
-        <hr class="post" />
-    {% endif %}
+    </article>
 {% endfor %}
 
 <div class="paginator">
-  <hr/>
   
   <div class="left_column">
     {% if paginator.next_page %}
@@ -44,9 +43,5 @@ title: Andy Freeland
         {% endif %}">Newer &rarr;</a>
     {% endif %}
   </div>
-
-  <div class="clear">
-  </div>
-
-  <hr/>
+  
 </div>

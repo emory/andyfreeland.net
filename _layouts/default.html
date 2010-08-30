@@ -5,41 +5,32 @@
     <meta charset=utf-8" />
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/screen.css" />
+    <link href='http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT:regular,italic' rel='stylesheet' type='text/css'>
     <!-- ADD RSS FEED -->
+<!--
+    <link rel="alternate" type="application/atom+xml" title="Alex Payne - Atom" href="http://feeds2.feedburner.com/al3x" />
+-->
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <div id="header">
-        <div id="title">
+    <header>
+        <h1 id="title">
             <a href="/">Andy Freeland</a>
-        </div>
+        </h1>
         
-        <div id="navigation">
-            <a href="/about/">About</a>
-            <a href="/archive/">Archive</a>
-        </div>
-        
-        <div class="clear">
-        </div>
-    </div>
+        <nav>
+            <ul>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/archive/">Archive</a></li>
+            </ul>
+        </nav>
+    </header>
     
-    <div id="content">
     {{ content }}
-    </div>
     
-<script type="text/javascript">
-//<![CDATA[
-(function() {
-    var links = document.getElementsByTagName('a');
-    var query = '?';
-    for (var i = links.length - 1; i >= 0; i--){
-        if(links[i].href.indexOf('#disqus_thread') >= 0) {
-            query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-        };
-    };
-    document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/jimeh/get_num_replies.js' + query + '"></' + 'script>');
-})();
-//]]>
-</script>
+    {% include comment_count.html %}
 </body>
 </html>
