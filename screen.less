@@ -34,7 +34,7 @@ body {
     width: 40em;
     line-height: 1.75;
     word-spacing: 0.1em;
-    background-color: white
+    background-color: @background-color
 }
 
 nav ul {
@@ -149,10 +149,11 @@ ol.archive {
 
 /* Pagination */
 
-div.paginator
+div.left_column,
+div.right_column,
+form.center_column
 {
-  margin: 3em 0;
-  width: 100%
+  border-bottom: 3px solid @background-color;
 }
 
 div.left_column,
@@ -170,7 +171,7 @@ div.center_column
 {
   float: left;
   width: 50%;
-  text-align: center;
+  text-align: center; 
 }
 
 div.right_column
@@ -179,12 +180,18 @@ div.right_column
   text-align: right;
 }
 
+div.paginator
+{
+  margin: 3em 0;
+}
+
+
 /* Form */
 
 form fieldset 
 {
   padding: 0;
-  margin: 0;
+  margin: auto auto auto auto;
   border: none;
 }
 
