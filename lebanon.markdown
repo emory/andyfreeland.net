@@ -5,6 +5,10 @@ title: Lebanon
 
 <h1 id="archive">Lebanon</h1>
 
+I'm going to be in Lebanon from 2 September 2010 through 12 December 2010. It'll be pretty awesome.
+
+Here you can see everything I've written about it. With pictures!
+
 <ol class="archive">
     {% for post in site.categories.lebanon %}
     <li>
