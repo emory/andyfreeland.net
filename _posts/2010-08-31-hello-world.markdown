@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World
-date: 2010-08-31 23:11 -05:00
+date: 2010-08-31 23:11
 ---
 
 I've spent an embarassing amount of time the past two days making yet another blog. The idea is that I'll actually use this one, especially while I'm in Lebanon.
