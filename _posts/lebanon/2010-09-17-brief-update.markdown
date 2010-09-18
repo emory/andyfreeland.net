@@ -7,7 +7,7 @@ date: 2010-09-17 23:58
 
 ![Fireworks](/photo/lebanon/09/17/IMG_0836.JPG)
 
-It's been a while since I've posted anything &emdash; I even have emails from my parents to prove it. I've been busy and lazy and haven't done much, so I never got around to writing.
+It's been a while since I've posted anything &mdash; I even have emails from my parents to prove it. I've been busy and lazy and haven't done much, so I never got around to writing.
 
 ![Fireworks and roof](/photo/lebanon/09/17/IMG_0820.JPG)
 
