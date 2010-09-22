@@ -31,7 +31,7 @@ Of course, neither the statue nor the beautiful Greek Catholic Basilica of St. P
 
 ![More Bay of Jounieh](/photo/lebanon/09/22/IMG_0956.JPG)
 
-We rode the [Téléphérique](http://en.wikipedia.org/wiki/T%C3%A9l%C3%A9ph%C3%A9rique_(Jounieh)), a ten minute long cable car ride, down to the bus. I'm not a huge fan of heights or plummeting towards my death in a flimsy looking cable car, so that was fun.
+We rode the [Téléphérique][Téléphérique], a ten minute long cable car ride, down to the bus. I'm not a huge fan of heights or plummeting towards my death in a flimsy looking cable car, so that was fun.
 
 ![Téléphérique](/photo/lebanon/09/22/IMG_0964.JPG)
 
@@ -42,3 +42,5 @@ We rode the [Téléphérique](http://en.wikipedia.org/wiki/T%C3%A9l%C3%A9ph%C3%A
 We also went to Byblos, but I have 162 more pictures to sort through before I post about that. Instead, I'll leave you with one more picture of Harissa/Jounieh.
 
 ![Harissa/Jounieh](/photo/lebanon/09/22/IMG_0944.JPG)
+
+[Téléphérique]: http://en.wikipedia.org/wiki/T%C3%A9l%C3%A9ph%C3%A9rique_(Jounieh)
