@@ -1,4 +1,5 @@
 ---
+layout: post
 category: lebanon
 title: Corniche Beirut
 date: 2010-09-06 22:30
