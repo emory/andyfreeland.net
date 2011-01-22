@@ -5,7 +5,9 @@ title: Lebanon
 
 <h1 id="archive">Lebanon</h1>
 
-I'm studying Arabic in Lebanon from 2 September 2010 through 12 December 2010. It'll be pretty awesome.
+I spent fall term 2010 in Beirut, Lebanon studying Arabic at [Lebanese American University](http://www.lau.edu.lb/centers-institutes/sinarc/). It was wonderful. Those 15 weeks were probably the best experience of my life.
+
+Sadly, there's still a few things I haven't written about, but I might add those someday.
 
 Here you can see everything I've written about it. With pictures!
 
