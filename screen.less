@@ -166,50 +166,26 @@ ol.archive {
 
 /* Pagination */
 
-div.left_column,
-div.right_column,
-form.center_column
-{
-  border-bottom: 3px solid @background-color;
+body > footer {
+  position: relative;
+  margin-top: 1em;
 }
-
-div.left_column,
-div.right_column
-{
-  width: 25%;
+body > footer a {
+  position: absolute;
+  top: 0;
 }
-
-div.left_column
-{
-  float: left;
+body > footer a:first-child {
+  left: 0;
 }
-
-div.center_column
-{
-  float: left;
-  width: 50%;
-  text-align: center; 
+body > footer a:last-child {
+  right: 0;
 }
-
-div.right_column
-{
-  float: right;
-  text-align: right;
-}
-
-div.paginator
-{
-  margin: 3em 0;
-}
-
-
-/* Form */
-
-form fieldset 
-{
+body > footer fieldset {
+  display: inline;
+  width: 100%;
   padding: 0;
-  margin: auto auto auto auto;
-  border: none;
+  border: 0;
+  text-align: center;
 }
 
 /* reset */
