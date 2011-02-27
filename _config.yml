@@ -1,6 +1,6 @@
 pygments: true
 permalink: pretty
 
-paginate: 3
+paginate: 5
 
 exclude: ['Rakefile', 'README.markdown']
