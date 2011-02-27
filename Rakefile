@@ -3,14 +3,14 @@
 
 task :default => :server
  
-desc 'Build site with ejekyll'
+desc 'Build site with jekyll'
 task :build do
-  ejekyll
+  jekyll
 end
  
 desc 'Start server with --auto'
 task :server do
-  ejekyll('--server --auto')
+  jekyll('--server --auto')
 end
 
 desc 'Build and deploy'
@@ -18,7 +18,7 @@ task :deploy => :build do
   sh 'rsync -rtzh --progress --delete _site/ rouge8_andyfreeland@ssh.phx.nearlyfreespeech.net:/home/public/'
 end
 
-def ejekyll(opts = '')
+def jekyll(opts = '')
   sh 'rm -rf _site'
-  sh 'ejekyll ' + opts
+  sh 'jekyll ' + opts
 end
