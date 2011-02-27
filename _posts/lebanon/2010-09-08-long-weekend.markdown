@@ -2,7 +2,7 @@
 layout: post
 date: 2010-09-08 18:30
 title: Long Weekend
-category: Lebanon
+category: lebanon
 ---
 
 ![High rises near the sea](/photo/lebanon/09/08/IMG_0691.jpg)
