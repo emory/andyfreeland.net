@@ -16,25 +16,12 @@ layout: default
     <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/andyfreeland/embed.js"></script><noscript><a href="http://disqus.com/forums/jimeh/?url=ref">View the discussion thread.</a></noscript>
 </div>
 
-{% if page.previous or page.next %}
-<div class="paginator">
-  <hr/>
-  
-  <div class="left_column">
-    {% if page.previous %}
-      <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>
-    {% endif %}
-  </div>
-
-  <div class="right_column">
-    {% if page.next %}
-      <a href="{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a>
-    {% endif %}
-  </div>
-  
-  <div class="clear">
-  </div>
-  
-  <hr/>
-</div>
-{% endif %}
+<footer>
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>
+  {% endif %}
+  {% include search.html %}
+  {% if page.next %}
+    <a href="{{ page.next.url }}" title="{{ page.next.title }}">Newer &rarr;</a>
+  {% endif %}
+</footer>
