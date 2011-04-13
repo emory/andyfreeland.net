@@ -13,3 +13,5 @@ You can find me on [Twitter](http://twitter.com/rouge8) and [Facebook](http://ww
 
 If you actually want to contact me, I recommend emailing me at <andy@andyfreeland.net>.
 
+If you're interested, I also have a [resume](/resume.pdf) available.
+
