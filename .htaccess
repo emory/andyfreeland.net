@@ -1,0 +1,13 @@
+# From http://kadakia.com/2010/10/rewrite-dropbox-url/
+# Check to see if mod_rewrite is installed / avaliable
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+# Check to see if file or directory exists
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite to Dropbox URL. Make sure you change the data after "/u/" (3234860) to your own user ID
+RewriteRule ^(.*)$ http://dl.dropbox.com/u/3234860/andyfreeland.net/$1 [L,QSA]    # Embedded File (default)
+RewriteRule ^dl/(.*)$ http://dl.dropbox.com/u/3234860/andyfreeland.net/$1?dl=1 [L,QSA] # Force Download
+</IfModule>
