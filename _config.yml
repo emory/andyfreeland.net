@@ -1,5 +1,7 @@
 pygments: true
 permalink: pretty
+server_port: 3000
+markdown: rdiscount
 
 paginate: 5
 
