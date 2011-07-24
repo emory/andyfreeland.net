@@ -5,7 +5,7 @@ title: Corniche Beirut
 date: 2010-09-06 22:30
 ---
 
-![Tall Building in Beirut](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/06/tall_building.jpg)
+![Tall Building in Beirut]( {{ site.photos }}/lebanon/09/06/tall_building.jpg)
 
 I've hinted at this before, but Beirut is pretty great. In the past few days, I've finally unpacked, gotten roommates, met other students, wandered Beirut, and had my placement test for Arabic.
 
@@ -15,28 +15,28 @@ At the orientation meeting we also talked about exciting things like excursions,
 
 There are currently eight SINARC students on my floor (out of between 12-20 students total I think), but we're expecting three more to arrive late. I live with three of them in my flat, three girls (expecting a fourth) in the next flat, and one guy (expecting two more) in the third flat. Our flats are **really** nice.
 
-![Suite room](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/06/other_room.jpg)
+![Suite room]( {{ site.photos }}/lebanon/09/06/other_room.jpg)
 
 That's the other bedroom in my flat. Mine is pretty much the same, minus the kitchen table and a slightly smaller couch. Because of the closet, I couldn't get a good picture of the whole room. We all eat dinner as a group in there and made some awesome chicken and onion and rice meal with a salsa-like salad. Was great.
 
-![Corniche](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/06/corniche.jpg)
+![Corniche]( {{ site.photos }}/lebanon/09/06/corniche.jpg)
 
 So, the [Corniche Beirut](http://en.wikipedia.org/wiki/Corniche_Beirut). I've gone there twice now: the first time I got horribly lost with my roommate and today a group of us went and wandered in the 95&deg;+ sun. The Corniche is a looooooong boardwalk along the Mediterranean Sea and it's super cool.
 
-![Corniche apartments](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/06/corniche_apartments.jpg)
+![Corniche apartments]( {{ site.photos }}/lebanon/09/06/corniche_apartments.jpg)
 
 Raouche's Pigeons Rock is also along the Corniche. It's a famous rock formation. A really cool rock formation, but still a rock formation. Not much else to say, but I've got a picture:
 
-![Pigeons Rock](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/06/pigeons_rock.jpg)
+![Pigeons Rock]( {{ site.photos }}/lebanon/09/06/pigeons_rock.jpg)
 
 I've also got a picture of a restaurant/club/beach resort across from Pigeons Rock:
 
-![Pigeons Rock resort](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/06/corniche_resort.jpg)
+![Pigeons Rock resort]( {{ site.photos }}/lebanon/09/06/corniche_resort.jpg)
 
 That's pretty much it. Other than getting yelled at by a soldier for taking a picture of the house of [Rafic Hariri](http://en.wikipedia.org/wiki/Rafic_Hariri) (former Prime Minister, assassinated in 2005). Apparently you're not supposed to do that. Oops.
 
-![Hariri house](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/06/pm_house.jpg)
+![Hariri house]( {{ site.photos }}/lebanon/09/06/pm_house.jpg)
 
 In the future, I'll try to write shorter and more frequent posts. We'll see how that goes.
 
-![Rubble house](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/06/rubble_house.jpg)
+![Rubble house]( {{ site.photos }}/lebanon/09/06/rubble_house.jpg)

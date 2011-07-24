@@ -18,28 +18,28 @@ My building is in the [Hamra district](http://en.wikipedia.org/wiki/Hamra_Street
 
 More importantly, pictures:
 
-![Sam Building](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/03/sam_building.jpg)
+![Sam Building]( {{ site.photos }}/lebanon/09/03/sam_building.jpg)
 
 My building.
 
-![LAU Dorm](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/03/lau_dorm.jpg)
+![LAU Dorm]( {{ site.photos }}/lebanon/09/03/lau_dorm.jpg)
 
 LAU Dorm
 
-![250 Lebanese Lira](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/03/250ll.jpg)
+![250 Lebanese Lira]( {{ site.photos }}/lebanon/09/03/250ll.jpg)
 
 250 Lebanese lira
 
-![out my window](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/03/window1.jpg)
+![out my window]( {{ site.photos }}/lebanon/09/03/window1.jpg)
 
 The view from my window.
 
 Some more from down the street:
 
-![graffiti](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/03/graffiti.jpg)
+![graffiti]( {{ site.photos }}/lebanon/09/03/graffiti.jpg)
 
-![view from a parking lot](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/03/parkinglot.jpg)
+![view from a parking lot]( {{ site.photos }}/lebanon/09/03/parkinglot.jpg)
 
-![street photo](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/03/street.jpg)
+![street photo]( {{ site.photos }}/lebanon/09/03/street.jpg)
 
-![astra hotel](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/03/astra.jpg)
+![astra hotel]( {{ site.photos }}/lebanon/09/03/astra.jpg)

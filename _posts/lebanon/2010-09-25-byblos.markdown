@@ -5,43 +5,43 @@ date: 2010-09-25 01:05
 category: lebanon
 ---
 
-![columns](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/25/IMG_0993.JPG)
+![columns]( {{ site.photos }}/lebanon/09/25/IMG_0993.JPG)
 
-![church](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/25/IMG_1014.JPG)
+![church]( {{ site.photos }}/lebanon/09/25/IMG_1014.JPG)
 
 As I mentioned last time, our first excursion was to [Byblos](http://en.wikipedia.org/wiki/Byblos), which is one of the oldest (if not the oldest) continuously inhabited cities in the world &mdash; it was founded around 5000 BC. Right after getting off the bus we got to see some nice ancient (probably Roman?) columns, walked through the historic markets, and went to Byblos Castle &mdash; a 12th century Crusader castle. It was cool.
 
-![markets](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/25/IMG_1007.JPG)
+![markets]( {{ site.photos }}/lebanon/09/25/IMG_1007.JPG)
 
-![group picture](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/25/IMG_1098.JPG)
+![group picture]( {{ site.photos }}/lebanon/09/25/IMG_1098.JPG)
 
 While wandering around the castle grounds we met two 11-13 year old kids who hung out with us. They asked us questions about things like the meaning of various offensive English words they'd heard in movies, we asked them a few Arabic words, and they showed us around the grounds. Was great. I don't really have much else to say about it, so I'll just bombard you with pictures.
 
-![view of the city and castle walls](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/25/IMG_1034.JPG)
+![view of the city and castle walls]( {{ site.photos }}/lebanon/09/25/IMG_1034.JPG)
 
 The next two are a result of my discovery of depth of field.
 
-![near focus](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/25/IMG_1054.JPG)
+![near focus]( {{ site.photos }}/lebanon/09/25/IMG_1054.JPG)
 
-![far focus](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/25/IMG_1059.JPG)
+![far focus]( {{ site.photos }}/lebanon/09/25/IMG_1059.JPG)
 
-![Byblos](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/25/IMG_1071.JPG)
+![Byblos]( {{ site.photos }}/lebanon/09/25/IMG_1071.JPG)
 
 A view of the city.
 
-![House and ruins](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/25/IMG_1077.JPG)
+![House and ruins]( {{ site.photos }}/lebanon/09/25/IMG_1077.JPG)
 
-![House against the sea](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/25/IMG_1095.JPG)
+![House against the sea]( {{ site.photos }}/lebanon/09/25/IMG_1095.JPG)
 
 Some ruins and a traditional Lebanese house.
 
-![Castle walls](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/25/IMG_1088.JPG)
+![Castle walls]( {{ site.photos }}/lebanon/09/25/IMG_1088.JPG)
 
-![Byblos Castle](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/25/IMG_1116.JPG)
+![Byblos Castle]( {{ site.photos }}/lebanon/09/25/IMG_1116.JPG)
 
 The actual castle!
 
-![distance Castle](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/25/IMG_1148.JPG)
+![distance Castle]( {{ site.photos }}/lebanon/09/25/IMG_1148.JPG)
 
 Other than the excursion, my life has been pretty uneventful for the past week. A few days ago, while leaving campus and laughing with my friends, one of the security guards at LAU stopped us and told us it was the first time he'd seen me smile. I went downtown this afternoon, which I'll write about/post pictures of at some point.
 
@@ -49,4 +49,4 @@ The political situation is also increasingly tenuous. Last weekend Hezbollah and
 
 Other than that, things are fine. No need to worry either, the Syrians and Saudis really don't want a Sunni-Shi'a civil war. I'll leave you with a picture of the beach, as seen from the ruins around the Byblos Castle.
 
-![beach at Byblos](http://dl.dropbox.com/u/3234860/andyfreeland.net/photo/lebanon/09/25/IMG_1146.JPG)
+![beach at Byblos]( {{ site.photos }}/lebanon/09/25/IMG_1146.JPG)

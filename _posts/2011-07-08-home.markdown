@@ -4,20 +4,20 @@ title: Home
 date: 2011-07-08 18:40
 ---
 
-![Fireworks](/photo/2011/07/08/IMG_3864.JPG)
+![Fireworks]( {{ site.photos }}/2011/07/08/IMG_3864.JPG)
 
 Went [home](http://en.wikipedia.org/wiki/DeKalb,_IL) for a week for the 4th of July. Did the usual sort of thing: saw friends, family, played some piano, etc. Not the most exciting thing to write about, but that's life.
 
 Fireworks are also not the most interesting pictures I've realized. At least not from a good distance away and through some trees.
 
-![Fireworks everywhere](/photo/2011/07/08/IMG_3866.JPG)
+![Fireworks everywhere]( {{ site.photos }}/2011/07/08/IMG_3866.JPG)
 
 I think this one is pretty cool though. A bit of flare, some smoke, and a little blurriness makes it more interesting than most of the others. This is what happens when you try balancing a camera on your knee for fifteen seconds.
 
-![Fireworks](/photo/2011/07/08/IMG_3873.JPG)
+![Fireworks]( {{ site.photos }}/2011/07/08/IMG_3873.JPG)
 
 This one is not as cool, but it's still nice.
 
-![Baby Squirrel](/photo/2011/07/08/IMG_3836.JPG)
+![Baby Squirrel]( {{ site.photos }}/2011/07/08/IMG_3836.JPG)
 
 Also: look, a baby squirrel! This not from home, it's on a garbage bin at [Macalaster College](http://en.wikipedia.org/wiki/Macalaster_College).
