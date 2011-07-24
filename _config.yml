@@ -6,3 +6,5 @@ markdown: maruku
 paginate: 5
 
 exclude: ['Rakefile', 'README.markdown']
+
+photos: http://dl.dropbox.com/u/3234860/andyfreeland.net/photo
