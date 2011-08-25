@@ -1,0 +1,37 @@
+---
+layout: post
+title: Redesign
+date: 2011-08-25 18:35
+---
+
+I've been here for almost exactly one year now, so it was about time for a redesign. I think this one looks much better, but I'm biased. I'm also much more comfortable with CSS than I was a year ago and have discovered fancy tools, like CSS frameworks.
+
+I first used [inuit.css](http://csswizardry.com/inuitcss/) while making a [futures market webapp](https://github.com/rouge8/futures-market) for one of the CS professors. I picked it over more common frameworks because it had nice pretty defaults, and looked easier to get started with. Naturally, I used it here too.
+
+What does this mean for you, O reader?
+
+It means that many of the hard things I don't understand like line heights, word spacing, and resizing for different screen sizes (try this site on your phone!) are mostly taken care of for me. This is incredibly helpful, because now I don't have gross smashed together fonts like last time. It also means most (hopefully all?) elements should have styling even if I didn't do it myself.
+
+This is a good thing. I actually used [LESS](http://lesscss.org/) this time, because it is incredibly awesome. Math and variables and nested rules in my stylesheets.
+
+I also changed the fonts and made them huge, because I really like large fonts. After discovering [Readability](http://www.readability.com/) and using it to read almost everything, reading pages with small fonts sucks. One of my goals is that this looks good enough that you won't instinctively leap for something like Readability. I won't anymore, which is progress.
+
+Despite using inuit.css, this design is much more a product of my work. I knew what I wanted (for the most part &mdash; I had no idea what to do about the comment links), and I like what I got.
+
+A few other notes:
+
+- The sans serif font being used in post titles and the navigation links is [Oswald](http://www.google.com/webfonts/specimen/Oswald).
+
+- The gorgeous font for the header is [Arvo](http://www.google.com/webfonts/specimen/Arvo).
+
+- Pages are still written in Markdown and generated using [Jekyll](https://github.com/mojombo/jekyll).
+
+- Links with the dotted underline and changing color came from [cloudhead.io](http://cloudhead.io/log).
+
+- The new permalinks on the [main page](/) were inspired by [Alex Payne](http://al3x.net/).
+
+That's about it. Tested in [Firefox](http://www.mozilla.org/en-US/firefox/new/), [Google Chrome](http://www.google.com/chrome), [IE 9](http://en.wikipedia.org/wiki/Internet_Explorer_9), and the [Android browser](http://www.android.com/). If something is broken or weird for you, post a comment, or [email me](mailto:andy@andyfreeland.net).
+
+Let me know what you think. Note: posts with pretty pictures will return soon.
+
+Also, I'm 21 now?
