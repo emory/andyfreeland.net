@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: page
 title: About
 ---
-
-#About
 
 I'm a senior computer science major at [Carleton College](http://www.carleton.edu), where I do fun things like play piano, make cool computer things, take pictures, and study Arabic.
 
