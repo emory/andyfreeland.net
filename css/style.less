@@ -4,6 +4,7 @@
 @nice-font: 'Arvo', serif;
 @nav-font: 'Oswald', sans-serif;
 @base-font-size: 1.25em;
+@text-color: #333;
 
 /*------------------------------------*\
 	MAIN
@@ -15,6 +16,7 @@ body{
 	background:white;
 	padding-top:50px;
     font-size: @base-font-size;
+    color: @text-color;
 }
 #page{
 	margin:0 auto;
@@ -30,7 +32,6 @@ body{
 	TYPE
 \*------------------------------------*/
 .title{
-	font-weight:bold;
 	font-size:3 / @base-font-size;
 	line-height:1;
     font-family: @nav-font;
@@ -44,6 +45,7 @@ a{
    text-transform: uppercase;
    font-size: 6 / @base-font-size;
    line-height: 1;
+   text-align: center;
 }
 
 nav > ul{
@@ -51,12 +53,18 @@ nav > ul{
     text-transform: uppercase;
     font-size: 2 / @base-font-size;
     font-family: @nav-font;
-    text-align: center;
     margin: 0;
+    text-align: center;
+    color: @text-color*2;
 }
 
 nav li{
     display: inline;
+    margin-left: 2em;
+}
+
+nav li:first-child{
+    margin-left: 0;
 }
 
 
@@ -66,6 +74,12 @@ nav li{
 \*------------------------------------*/
 #logo{
 	margin-bottom:1.5em;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
