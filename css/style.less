@@ -5,6 +5,9 @@
 @nav-font: 'Oswald', sans-serif;
 @base-font-size: 1.10em;
 @text-color: #333;
+@link-color: #227CE8;
+@nav-color: #666;
+@header-color: @text-color;
 
 /*------------------------------------*\
 	MAIN
@@ -35,9 +38,13 @@ body{
 	font-size:3 / @base-font-size;
 	line-height:1;
     font-family: @nav-font;
+    
+    a{
+        color: @header-color;
+    }
 }
 a{
-	color:inherit;
+    color:@link-color;
 }
 
 #header{
@@ -46,6 +53,10 @@ a{
    font-size: 6 / @base-font-size;
    line-height: 1;
    text-align: center;
+
+   a{
+       color:@header-color;
+    }
 }
 
 nav > ul{
@@ -55,7 +66,10 @@ nav > ul{
     font-family: @nav-font;
     margin: 0;
     text-align: center;
-    color: @text-color*2;
+
+    a{
+        color: @text-color*2;
+    }
 }
 
 nav li{
