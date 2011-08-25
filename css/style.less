@@ -2,6 +2,7 @@
 	VARIABLES
 \*------------------------------------*/
 @nice-font: 'Arvo', serif;
+@nav-font: 'Ubuntu', sans-serif;
 
 /*------------------------------------*\
 	MAIN
@@ -26,10 +27,11 @@ body{
 /*------------------------------------*\
 	TYPE
 \*------------------------------------*/
-h1{
+#title{
 	font-weight:bold;
-	font-size:3em;
+	font-size:4em;
 	line-height:1;
+    font-family: @nav-font;
 }
 a{
 	color:inherit;
@@ -40,6 +42,13 @@ a{
    text-transform: uppercase;
    font-size: 6em;
    line-height: 1;
+}
+
+nav > ul{
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: @nav-font;
 }
 
 
