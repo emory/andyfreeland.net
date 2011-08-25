@@ -4,12 +4,19 @@ layout: default
 
 <article class="post">
     <header>
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
         <h1 class="title">{{ page.title }}</h1>
     </header>
         
     {{ content }}
+
+    <p class="signoff">
+        &mdash;
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+    </p>
+
 </article>
+
+<hr />
 
 <div class="post_comments">
     <script type="text/javascript">  var disqus_developer = true; </script>

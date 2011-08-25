@@ -6,7 +6,6 @@ title: Home
 {% for post in paginator.posts %}
     <article class="index">
         <header>
-            <time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time>
             <h1 class="title">
                 <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
             </h1>
@@ -14,8 +13,10 @@ title: Home
             
             {{ post.content }}
             
-        <p class="post_comment_link">
-            <a href="{{ post.url }}#disqus_thread">Comments</a>
+        <p class="signoff">
+            &mdash;
+            <a href="{{ post.url }}" title="{{ post.title }}"><time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time></a>
+            (<a href="{{ post.url }}#disqus_thread" class="post_comment_link">Comments</a>)
         </p>
     
     </article>

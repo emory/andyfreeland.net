@@ -12,3 +12,13 @@
 })();
 //]]>
 </script>
+<script>
+    $(document.body).ready(function () {
+        $(".post_comment_link").each(function (i) {
+            var comment_count = $(this).text();
+            if (comment_count.charAt(0) == 0) {
+                $(this).text('Leave a comment');
+            }
+        });
+    });
+</script>
