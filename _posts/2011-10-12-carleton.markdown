@@ -1,0 +1,21 @@
+---
+layout: post
+title: Carleton
+date: 2011-10-12 22:00
+---
+
+![Carleton fall]({{ site.photos }}/2011/10/12/carleton-fall.jpg)
+
+Carleton in the fall.
+
+![Evans and Lyman Lakes]({{ site.photos }}/2011/10/12/IMG_3931.JPG)
+
+![Flowers]({{ site.photos }}/2011/10/12/IMG_3982.JPG)
+
+![Bridge]({{ site.photos }}/2011/10/12/DSC_0109.JPG)
+
+Carleton in the summer.
+
+![Bees]({{ site.photos }}/2011/10/12/DSC_0001.JPG)
+
+
