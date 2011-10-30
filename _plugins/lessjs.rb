@@ -1,3 +1,4 @@
+# https://gist.github.com/920651
 module Jekyll
   
   class LessCssFile < StaticFile
