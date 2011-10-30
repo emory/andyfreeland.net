@@ -1,7 +1,7 @@
 pygments: true
 permalink: pretty
 server_port: 3000
-markdown: maruku
+markdown: kramdown
 
 paginate: 5
 
