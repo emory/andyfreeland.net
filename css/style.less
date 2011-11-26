@@ -121,6 +121,15 @@ img{
     margin-right: auto;
 }
 
+.rounded-corners (@radius: 10px) {
+    border-radius: @radius;
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+}
+
+img[src*="/photo/"]{
+    .rounded-corners;
+}
 
 
 /*------------------------------------*\
