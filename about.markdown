@@ -9,7 +9,7 @@ That last part's pretty important &mdash; it's why I went to [Lebanon](/lebanon/
 
 You can find me on [Twitter](https://twitter.com/rouge8) and [Facebook](https://www.facebook.com/andy.freeland), or you can email me at <andy@andyfreeland.net>.
 
-You can also find my some of my code on [GitHub](https://github.com/rouge8) and read about some of my [projects](/projects/).
+You can also find some of my code on [GitHub](https://github.com/rouge8) and read about some of my [projects](/projects/).
 
 If you're interested, I also have a [resume](/resume.pdf) available.
 
