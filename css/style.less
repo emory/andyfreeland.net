@@ -50,7 +50,7 @@ ol.archive{
 	font-size:3 / @base-font-size;
 	line-height:1;
     font-family: @nav-font;
-    
+
     a{
         color: @header-color;
         border-bottom: 0;
@@ -66,7 +66,7 @@ a:hover{
 }
 
 #header{
-   font-family: @nice-font; 
+   font-family: @nice-font;
    text-transform: uppercase;
    font-size: 6 / @base-font-size;
    line-height: 1;
@@ -176,7 +176,8 @@ CSS for tablets and narrower devices
 
 
 
-@media (min-width: 721px) and (max-width: 960px){}
+@media (min-width: 721px) and (max-width: 960px){
+}
 /*--- END NARROW ---*/
 
 
@@ -191,23 +192,43 @@ CSS for mobile devices.
 Linearise it!
 */
 
-
-
-
-
 @media (max-width: 720px){
-body{
-	font-size:0.75em;
+    body{
+        font-size:0.75em;
+    }
+
+    #header{
+        font-size:4em;
+    }
+    .title{
+        font-size:2em;
+    }
+    nav>ul{
+        font-size:1.5em;
+    }
 }
 
-#header{
-    font-size:3em;
+@media (max-width: 320px){
+    #header{
+        font-size:3.75em;
+    }
+    nav li{
+        display: inline;
+        margin: 0;
+    }
+    nav>ul{
+        font-size:1.25em;
+    }
 }
-.title{
-    font-size:2em;
-}
-nav>ul{
-    font-size:1.25em;
-}
+
+@media (max-width: 240px){
+    nav li{
+        display: block;
+        margin-left: 0;
+    }
+
+    nav li:first-child{
+        margin-left: 0;
+    }
 }
 /*--- END MOBILE ---*/
