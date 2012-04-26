@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+slug: projects
 ---
 
 - [HITSearch](https://github.com/rouge8/hitsearch) &mdash; a super cool search engine and web crawler for a Data Mining class. Uses [Django](https://www.djangoproject.com/) and made by me, [Dan Levy](http://danl3v.com) and [Conrad Dean](http://conradpdean.com).

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+slug: about
 ---
 
 I'm __Andy__. I'm a senior <a href="#programming">Computer Science major</a> at [Carleton College][1].
