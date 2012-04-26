@@ -4,6 +4,14 @@ title: Projects
 slug: projects
 ---
 
+## Google Voice Analysis
+
+A collection of scripts to parse and analyze Google Voice data.
+Currently it's all Naive Bayes, but someday there will be more.
+A regular source of entertainment and nostalgia.
+<br />
+{ [rouge8/gv_analysis](https://github.com/rouge8/gv_analysis) }
+
 ## PIG: Packet Inspection Guru
 
 PIG is an intrusion detection system and network monitoring web application.
