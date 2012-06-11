@@ -40,7 +40,7 @@ If you want to know more, check out the [post about the latest redesign][12].
 
 
 [1]: http://www.carleton.edu
-[2]: andy@andyfreeland.net
+[2]: mailto:andy@andyfreeland.net
 [3]: https://github.com/rouge8
 [4]: https://twitter.com/rouge8
 [5]: https://www.facebook.com/andy.freeland
