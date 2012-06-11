@@ -4,7 +4,7 @@ title: About
 slug: about
 ---
 
-I'm __Andy__. I'm a senior <a href="#programming">Computer Science major</a> at [Carleton College][1].
+I'm __Andy__. I just graduated with a major in <a href="#programming">Computer Science</a> from [Carleton College][1].
 
 I also study a lot of <a href="#arabic">Arabic</a>.
 
@@ -14,7 +14,7 @@ I also have [a resume][6] available.
 
 ## <a class="heading" name="programming">Programming</a>
 
-I'm currently a senior Computer Science major at [Carleton College][7].
+I'm a 2012 graduate of [Carleton College][7] with a degree in Computer Science.
 
 I've taken a lot of courses and worked on a few projects, but I'm currently interested in artificial intelligence, machine learning, and web applications.
 
@@ -26,7 +26,7 @@ You can take a look at [my projects][8] to see some of the more interesting thin
 
 I like Arabic. _A lot_. The language, the people, the music, the culture, the politics, whatever.
 
-At Carleton, I've taken every Arabic class offered (_and more!_).
+At Carleton, I took every Arabic class offered (_and more!_).
 I also work as a teaching assistant for the department.
 
 In Fall 2010, I went to [Lebanon][10] to study Arabic and explore the country. It was really awesome --- one of the best experiences of my life.
@@ -49,5 +49,5 @@ If you want to know more, check out the [post about the latest redesign][12].
 [8]: /projects/
 [9]: https://github.com/rouge8
 [10]: /lebanon/
-[11]: http://clscholarship.org/details/arabic-amman.htm
+[11]: /cls/
 [12]: /2011/08/25/redesign/
