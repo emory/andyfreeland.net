@@ -1,0 +1,26 @@
+---
+layout: post
+title: To Jordan!
+time: 2012-06-11 15:25
+tags: ['jordan', 'cls', 'summer12travel']
+---
+
+Tomorrow I fly to Jordan to study Arabic even more.
+I've already been in DC for orientation --- I left outrageously early the morning after graduation.
+
+I'm going to be in Amman on the [Critical Language Scholarship][1] studying Arabic even more intensely
+than when I was in [Lebanon][2]. I'm going from 8--9 hours per week of classes at Carleton to 20+ hours per week plus lots more homework.
+
+I'll be in Jordan until 12 August, at which point I'm hoping to travel to some subset of Lebanon, Egypt, Israel, and Turkey. Probably Lebanon, Egypt, and Israel assuming I can get in.
+
+I'm really good at relaxing after graduation.
+Once I get there, I'll start writing and taking pictures of all the relaxation I'm doing. Be excited.
+
+If you're interested, subscribe by [email][3], or [RSS][4], or just come here all the time. You can also view all posts about my trip [here][5].
+
+
+[1]: http://clscholarship.org/details/arabic-amman.htm
+[2]: /lebanon/
+[3]: http://feedburner.google.com/fb/a/mailverify?uri=andyfreeland&loc=en_US
+[4]: http://feeds.feedburner.com/andyfreeland
+[5]: /cls/

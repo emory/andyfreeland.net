@@ -1,0 +1,19 @@
+---
+layout: page
+title: Critical Language Scholarship
+slug: cls
+---
+
+<p>I'm going to spend summer 2012 in Amman, Jordan studying Arabic on the <a href="http://clscholarship.org/details/arabic-amman.htm">Critical Language Scholarship</a>. The program runs from 10 June &ndash; 12 August.</p>
+
+<p>Here you can see everything I've written about it. With pictures!</p>
+
+<ol class="archive">
+    {% for post in site.tags.cls %}
+    <li>
+        <time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time>
+        &mdash;
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ol>
