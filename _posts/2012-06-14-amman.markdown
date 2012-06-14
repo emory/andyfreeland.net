@@ -1,0 +1,31 @@
+---
+layout: post
+title: Amman
+time: 2012-06-14 20:20
+---
+
+![Amman at Evening]({{ site.photos }}/2012/06/14/IMG_4431.JPG)
+
+We all survived the flight, despite a terrifying dip as we approached the airport and then a substantially delayed landing.
+Above is a view from the balcony of [ACOR](http://www.acorjordan.org), but more on that later.
+
+So, Amman. A few comparisons to Beirut:
+
+- Amman is significantly dirter.
+- Amman (or at least the Tlaa' al-Ali neighborhood) is much less dense and much more spread out. We have to walk down a very steep hill to get to any shops. In Beirut, there were three convenience stores within probably 100 meters.
+- There are dogs barking all night, not just cats.
+- **No humidity!**
+- People don't seem to understand let alone speak English. *This is probably a plus*.
+- We can hear the call to prayer much more often and much louder than in Beirut.
+
+Nonetheless, I like it. I'm living in an apartment with five other people near ACOR, in the [Tlaa' al-Ali](http://ar.wikipedia.org/wiki/%D8%AA%D9%84%D8%A7%D8%B9_%D8%A7%D9%84%D8%B9%D9%84%D9%8A) region. The apartment is sort of falling apart, in a way that will probably become endearing. For example, the ceiling light in my room is held up at a precarious angle by a single screw. We also don't have a shower curtain, the kitchen smells, and the internet is unusably slow. Alas. At least we have air conditioning.
+
+All of the women are living in [ACOR](http://www.acorjordan.org), which is also where we're having all of our orientation activities (and where I'm going to go for internet), including a crash course in Jordanian Arabic. It turns out Jordanian Arabic (at least the urban/Palestinian dialect) is much closer to Lebanese Arabic than the flashcards we were sent to prepare led me to believe. *Hamdillah*.
+
+Also, Amman is really really really hot (and dry!) during the day, and we live on a very steep hill. I felt dehydrated and exhausted just from walking to and from the store and our apartment to buy water. Once the sun sets however, the weather is gorgeous. It's much cooler and there's a very pleasant breeze.
+
+![Amman at Night]({{ site.photos }}/2012/06/14/IMG_4432.JPG)
+
+Same view (more or less) from the ACOR balcony, but after dark.
+
+As for the program itself, so far we've just had orientation and met with our speaking partners for the crash course in Jordanian Arabic. The program already seems more intense than SINARC was, and it'll likely get much more so once we start classes at [Qasid](http://www.qasid.com/). I'm excited.
