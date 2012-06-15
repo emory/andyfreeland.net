@@ -2,6 +2,7 @@
 layout: post
 title: Amman
 time: 2012-06-14 20:20
+tags: ['jordan', 'cls', 'summer12travel']
 ---
 
 ![Amman at Evening]({{ site.photos }}/2012/06/14/IMG_4431.JPG)
